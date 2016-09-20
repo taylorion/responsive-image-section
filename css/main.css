@@ -46,3 +46,9 @@ p {
   padding: .5em;
   display: inline-block;
 }
+
+.btn-ghost:hover {
+  color: #fff;
+  background-color: #666;
+  border-color: #666;
+}
