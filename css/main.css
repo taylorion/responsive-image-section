@@ -58,3 +58,101 @@ p {
   background-color: #666;
   border-color: #666;
 }
+
+@media only screen and (min-width: 25em) {
+
+  .button {
+    padding-bottom: 1.5em;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .text {
+    display: inline-block;
+
+    max-width: 49%;
+    vertical-align: top;
+    margin: 0.75em auto;
+    padding-right: 1em;
+  }
+
+  footer {
+    display: inline-block;
+    max-width: 49%;
+    margin: 4.5em auto;
+  }
+
+  .image {
+    display: block;
+  }
+
+  body {
+    display: block;
+    margin: auto;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  h1 {
+    margin-bottom: 1.1em;
+  }
+
+  section {
+    max-width: 60em;
+    margin: auto;
+  }
+
+  a {
+    padding: 0.75rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+  }
+
+  footer {
+    margin-top: 2em;
+  }
+
+  .img-flex {
+    padding-right: 1.2em;
+  }
+
+  .text {
+    margin-top: 2.6em;
+    padding-right: 1.5em;
+    padding-left: 1.2em;
+  }
+
+  p {
+    margin-bottom: 1em;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.6;
+  }
+
+  .text {
+    margin-top: 3.5em;
+  }
+
+  section {
+    max-width: 50em;
+  }
