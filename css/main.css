@@ -6,57 +6,74 @@
 
 html {
   box-sizing: border-box;
-  font: normal 100%/1.5 sans-serif;
-  font-family: "Lato", sans-serif;
-  background-color: #e2e2e2;
-  vertical-align: middle;
-  text-align: center;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+html {
+  padding: 0;
+  background-color: #e2e2e2;
+}
+
+.text {
+  padding-left: 1em;
+}
+
 body {
-  padding-top: 1em;
+  font-family: sans-serif;
   margin: 0;
 }
 
-div {
-  display: inline-block;
-  max-width: 25em;
-  padding: 1em;
+h1 {
+  font-size: 1.5em;
+  line-height: 1.4;
 }
 
-img {
-  width: 100%;
-  display: block;
+h2 {
+  margin-bottom: 0;
+  font-size: 1em;
 }
 
 p {
+  margin-top: 0;
   text-align: left;
 }
 
-.btn {
-  color: #333;
-  border: 3px solid #000;
-  border-radius: .5em;
-  padding: .5em;
-  display: inline-block;
+a {
+  color: white;
+  background-color: #555;
+
+  text-align: center;
+  text-decoration: none;
+
+  border-width: 1px;
+  border-color: #555;
+  border-radius:4px;
+
+  padding: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
-.btn-ghost {
-  color: #333;
-  border: 3px solid #000;
-  border-radius: .5em;
-  padding: .5em;
-  display: inline-block;
+a:hover {
+  background-color: #000;
 }
 
-.btn-ghost:hover {
-  color: #fff;
-  background-color: #666;
-  border-color: #666;
+.button {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.img-flex {
+  width: 100%;
+  vertical-align: middle;
+  display: block;
 }
 
 @media only screen and (min-width: 25em) {
@@ -89,7 +106,7 @@ p {
     margin: 4.5em auto;
   }
 
-  .image {
+  .img {
     display: block;
   }
 
@@ -107,6 +124,12 @@ p {
     line-height: 1.5;
   }
 
+  .text {
+    margin-top: 2.6em;
+    padding-right: 1.5em;
+    padding-left: 1.2em;
+  }
+
   h1 {
     margin-bottom: 1.1em;
   }
@@ -122,22 +145,16 @@ p {
     padding-bottom: 0.7rem;
   }
 
+  p {
+    margin-bottom: 1em;
+  }
+
   footer {
     margin-top: 2em;
   }
 
   .img-flex {
     padding-right: 1.2em;
-  }
-
-  .text {
-    margin-top: 2.6em;
-    padding-right: 1.5em;
-    padding-left: 1.2em;
-  }
-
-  p {
-    margin-bottom: 1em;
   }
 
 }
@@ -156,3 +173,5 @@ p {
   section {
     max-width: 50em;
   }
+
+}
