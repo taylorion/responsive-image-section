@@ -10,3 +10,39 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  padding-top: 1em;
+  margin: 0;
+}
+
+div {
+  display: inline-block;
+  max-width: 25em;
+  padding: 1em;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+p {
+  text-align: left;
+}
+
+.btn {
+  color: #333;
+  border: 3px solid #000;
+  border-radius: .5em;
+  padding: .5em;
+  display: inline-block;
+}
+
+.btn-ghost {
+  color: #333;
+  border: 3px solid #000;
+  border-radius: .5em;
+  padding: .5em;
+  display: inline-block;
+}
